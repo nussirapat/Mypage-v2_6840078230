@@ -1,0 +1,323 @@
+/* =========================
+   BASE
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #fff0f6,
+        #ffe4ef
+    );
+
+    color: #3b2a32;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: linear-gradient(
+        135deg,
+        #ff8fbd,
+        #ff5fa2
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    box-shadow: 0 6px 18px
+        rgba(255, 95, 162, 0.25);
+}
+
+
+header h1 {
+    margin: 0;
+
+    font-size: 36px;
+
+    letter-spacing: 1px;
+}
+
+
+nav {
+    margin-top: 18px;
+}
+
+
+nav a {
+    display: inline-block;
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 6px;
+
+    padding: 9px 18px;
+
+    border: 1px solid white;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    background-color: white;
+
+    color: #ff5fa2;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    width: 85%;
+
+    max-width: 900px;
+
+    margin: 40px auto;
+}
+
+
+section {
+    background-color: white;
+
+    margin-bottom: 25px;
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 6px 18px
+        rgba(120, 70, 90, 0.12);
+
+    border-left: 6px solid #ff85b5;
+
+    transition: 0.3s;
+}
+
+
+section:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 10px 25px
+        rgba(255, 95, 162, 0.18);
+}
+
+
+h2 {
+    color: #d94f8a;
+
+    margin-top: 0;
+
+    border-bottom: 2px solid #ffd0e2;
+
+    padding-bottom: 8px;
+}
+
+
+/* =========================
+   PROFILE
+========================= */
+
+.profile-table {
+    width: 100%;
+
+    border: none;
+}
+
+
+.profile-table td {
+    border: none;
+
+    padding: 18px;
+
+    vertical-align: middle;
+}
+
+
+.profile-image {
+    width: 190px;
+    height: 190px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 6px solid #ffd0e2;
+
+    box-shadow: 0 5px 15px
+        rgba(255, 95, 162, 0.25);
+}
+
+
+/* =========================
+   LIST
+========================= */
+
+ol {
+    padding-left: 25px;
+}
+
+
+ol li {
+    margin: 10px 0;
+
+    padding: 8px 12px;
+
+    background-color: #fff1f6;
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+}
+
+
+th {
+    background-color: #ff8fbd;
+
+    color: white;
+
+    padding: 12px;
+
+    text-align: center;
+}
+
+
+td {
+    padding: 12px;
+
+    border: 1px solid #f4c6d8;
+}
+
+
+tr:nth-child(even) {
+    background-color: #fff5f9;
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+.skill-table td {
+    text-align: center;
+}
+
+
+.skill-table td:nth-child(2),
+.skill-table td:nth-child(4) {
+    color: #ff4f9a;
+
+    font-size: 18px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.button {
+    display: inline-block;
+
+    background: linear-gradient(
+        135deg,
+        #ff79ad,
+        #ff4f9a
+    );
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 11px 22px;
+
+    margin: 6px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px
+        rgba(255, 79, 154, 0.25);
+
+    transition: 0.3s;
+}
+
+
+.button:hover {
+    transform: translateY(-2px);
+
+    background: linear-gradient(
+        135deg,
+        #ff5fa2,
+        #e83e8c
+    );
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-box {
+    text-align: center;
+}
+
+
+.contact-box p {
+    background-color: #fff4f8;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin: 10px 0;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #4a2c3a;
+
+    color: white;
+
+    margin-top: 40px;
+}
